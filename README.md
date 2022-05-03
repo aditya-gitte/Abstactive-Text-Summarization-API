@@ -4,7 +4,6 @@
 2. Set up the libraries by running
      pip install torch
      pip install --upgrade tensorflow
-     verify tf install by running python -c "import tensorflow as tf;print(tf.reduce_sum(tf.random.normal([1000, 1000])))"
      pip install flax
      pip install transformers
      pip install sentencepiece
