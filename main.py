@@ -7,6 +7,7 @@
 # pip install flax
 # pip install transformers
 # pip install sentencepiece
+# pip install flask
 
 
 from transformers import PegasusForConditionalGeneration
@@ -15,6 +16,10 @@ from transformers import pipeline
 from flask import Flask, redirect, url_for, render_template
 
 app = Flask(__name__)
+
+@app.route("/")
+def guideForUser():
+    return "Pass the text that has to summarized in the URL. For example if the current root URL is  http://127.0.0.1:5000 you have to change it to  http://127.0.0.1:5000/{Text that has to be summarized}"
 
 
 @app.route("/<example_text>")
