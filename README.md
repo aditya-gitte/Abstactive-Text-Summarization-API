@@ -9,7 +9,7 @@
      pip install sentencepiece\
      pip install flask\
      \
-     Or simply run pip install -r /path/to/requirements.txt
+     Or simply run pip install -r /path/to/requirements.txt\
 3. Run the main.py to start a local server
 4. The test server will run on http://127.0.0.1:5000/ by default
 5. Pass the text whose summary has to be found in the url bar after '/' (http://127.0.0.1:5000/Sample_text_whose_summary_has_to_be_found)
