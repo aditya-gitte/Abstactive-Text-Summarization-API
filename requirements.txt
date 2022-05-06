@@ -1,2 +1,7 @@
 Flask==2.1.2
 transformers==4.18.0
+tensorflow==2.8.0
+sentencepiece==0.1.96
+huggingface-hub==0.5.1
+flax==0.3.3
+torch==1.11.0
