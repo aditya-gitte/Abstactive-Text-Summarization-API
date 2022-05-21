@@ -47,7 +47,7 @@ to check if tensorflow is installed correctly or not you can run the following c
 - Clone the project
 
 ```bash
-  git clone https://github.com/aditya-gitte/Abstactive-Text-Summarization-API.git
+  git clone https://github.com/aditya-gitte/Abstractive-Text-Summarization-API.git
 ```
 
 - Go to the project directory
